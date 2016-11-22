@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-_project_dir="/home/syafiq/Documents/Netbeans/Cpp/hackerrank.cpp/"
+_project_dir="/home/syafiq/Documents/JetBrains/Clion/hackerrank.cpp/"
 _this_name="generator.sh"
 _path=$(readlink -f generator.sh | replace ${_project_dir} "" | replace ${_this_name} "")
 cd ../../
