@@ -26,6 +26,3 @@ add_executable(hackerrank_cpp_classes_boxit ${SOURCE_FILES_classes_boxit})
 file(READ other_concepts/attending_workshops/list.properties SOURCE_FILES_other_concepts_attending_workshops)
 STRING(REGEX REPLACE "\n" ";" SOURCE_FILES_other_concepts_attending_workshops "${SOURCE_FILES_other_concepts_attending_workshops}")
 add_executable(hackerrank_cpp_other_concepts_attending_workshops ${SOURCE_FILES_other_concepts_attending_workshops})
-
-set(SOURCE_FILES main.cpp)
-add_executable(hackerrank_cpp ${SOURCE_FILES})
