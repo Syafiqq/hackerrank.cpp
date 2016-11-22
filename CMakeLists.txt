@@ -9,6 +9,12 @@ file(READ introduction/virtual_function/list.properties SOURCE_FILES_introductio
 STRING(REGEX REPLACE "\n" ";" SOURCE_FILES_introduction_virtual_function "${SOURCE_FILES_introduction_virtual_function}")
 add_executable(hackerrank_cpp_introduction_virtual_function ${SOURCE_FILES_introduction_virtual_function})
 
+#inheritance
+#rectangle_area
+file(READ inheritance/rectangle_area/list.properties SOURCE_FILES_inheritance_rectangle_area)
+STRING(REGEX REPLACE "\n" ";" SOURCE_FILES_inheritance_rectangle_area "${SOURCE_FILES_inheritance_rectangle_area}")
+add_executable(hackerrank_cpp_inheritance_rectangle_area ${SOURCE_FILES_inheritance_rectangle_area})
+
 #classes
 #boxit
 file(READ classes/boxit/list.properties SOURCE_FILES_classes_boxit)
