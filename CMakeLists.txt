@@ -3,6 +3,12 @@ project(hackerrank_cpp)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
+#introduction
+#virtual function
+file(READ introduction/virtual_function/list.properties SOURCE_FILES_introduction_virtual_function)
+STRING(REGEX REPLACE "\n" ";" SOURCE_FILES_introduction_virtual_function "${SOURCE_FILES_introduction_virtual_function}")
+add_executable(hackerrank_cpp_introduction_virtual_function ${SOURCE_FILES_introduction_virtual_function})
+
 #classes
 #boxit
 file(READ classes/boxit/list.properties SOURCE_FILES_classes_boxit)
